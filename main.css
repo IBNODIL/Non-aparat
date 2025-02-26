@@ -147,3 +147,91 @@ h2{
   margin-top: 20px;
   min-height: 300px;
 }
+
+.nonAparatImg{
+  display: none;
+  visibility: hidden;
+}
+
+.powered{
+  background-color: #191919;
+  color: rgb(198, 198, 198);
+  text-align: center;
+  padding: 10px;
+  user-select: none;
+}
+
+.powered a{
+  color: rgb(198, 198, 198);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  nav{
+    padding: 10px;
+  }
+
+  #language-change{
+    font-size: 18px;
+  }
+
+  main{
+    padding: 20px 10px;
+  }
+
+  .nonAparatImg{
+    display: block;
+    visibility: visible;
+    width: 100%;
+    user-select: none;
+    pointer-events: none;
+  }
+
+  .main-img{
+    visibility: hidden;
+    display: none;
+  }
+
+  #creator-name{
+    font-size: 28px;
+  }
+
+  #title-1{
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 0;
+  }
+
+  .links{
+    padding: 20px 10px;
+    border-radius: 10px;
+  }
+
+  #title-2{
+    font-size: 18px;
+  }
+
+  #whatsapp, #telegram{
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .contact-us{
+    padding: 20px;
+  }
+
+  .contact-links-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .contact-link{
+    width: 100%;
+    overflow: hidden;
+    height: 80px;
+    padding: 10px 20px;
+  }
+}
