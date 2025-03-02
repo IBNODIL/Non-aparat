@@ -21,6 +21,7 @@ nav{
   position: sticky;
   top: 0;
   box-shadow: 1px 10px 50px white;
+  z-index: 2;
 }
 
 .logo{
