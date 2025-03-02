@@ -149,11 +149,6 @@ h2{
   min-height: 300px;
 }
 
-.nonAparatImg{
-  display: none;
-  visibility: hidden;
-}
-
 .powered{
   background-color: #191919;
   color: rgb(198, 198, 198);
@@ -184,14 +179,6 @@ video{
 
   main{
     padding: 20px 10px;
-  }
-
-  .nonAparatImg{
-    display: block;
-    visibility: visible;
-    width: 100%;
-    user-select: none;
-    pointer-events: none;
   }
 
   .main-img{
